@@ -1,4 +1,4 @@
 # Inkscape files to ignore
 inkscape/cphistory.xml
 inkscape/dialogs-state.ini
-
+inkscape/extension-errors.log
