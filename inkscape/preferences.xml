@@ -6,7 +6,7 @@
      id="window">
     <group
        id="task"
-       taskset="0" />
+       taskset="1" />
     <group
        id="menu"
        state="1" />
@@ -124,7 +124,10 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="326.658"
+         height="136.196"
+         ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -159,7 +162,9 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="1"
+         rx="126.4"
+         ry="126.4" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -203,8 +208,8 @@
        usepressure="1"
        usetilt="0"
        keep_selected="1"
-       abs_width="1"
-       unit="mm">
+       abs_width="0"
+       unit="px">
       <group
          id="preset">
         <group
@@ -309,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -319,7 +324,8 @@
        show_sample_in_list="1"
        use_svg2="1"
        style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
-       selcue="1" />
+       selcue="1"
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -335,8 +341,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="-1520"
+       y="1480"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -368,7 +374,8 @@
        mean="0" />
     <eventcontext
        id="gradient"
-       selcue="1" />
+       selcue="1"
+       newfillorstroke="1" />
     <eventcontext
        id="mesh"
        selcue="1" />
@@ -389,7 +396,8 @@
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1" />
+       selcue="1"
+       curvature="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -523,7 +531,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="Solarized"
+       palette="Material Design"
        panel_border="0" />
   </group>
   <group
@@ -539,9 +547,11 @@
        id="textandfont" />
     <group
        id="transformation"
-       applyseparately="0" />
+       applyseparately="0"
+       rotateCounterClockwise="1" />
     <group
-       id="align" />
+       id="align"
+       align-to="1" />
     <group
        id="xml"
        h="500"
@@ -570,35 +580,37 @@
        path="">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="200" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/izacarias/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
-       default=""
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="" />
+       path="/home/izacarias/Downloads/TUBS-Templates/tubslatex_examples_1.3.4/beamer" />
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/izacarias/Downloads/" />
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/izacarias/Downloads/Network-Slicing/"
        ask="1"
        ask_svg="1"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -647,7 +659,8 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options">
+     id="options"
+     onimport="0">
     <group
        id="renderingcache"
        size="512" />
@@ -680,7 +693,7 @@
        value="12" />
     <group
        id="cursortolerance"
-       value="8.0" />
+       value="8" />
     <group
        id="dragtolerance"
        value="4.0" />
@@ -921,18 +934,23 @@
     </group>
     <group
        id="rendering" />
+    <group
+       id="font"
+       unitType="2" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
   <group
      id="desktop"
-     style="">
+     style="fill:#0080b4;text-anchor:middle;text-align:center;stroke-width:5;font-size:64px;stroke-dasharray:10, 5, 2.5, 5">
     <group
-       width="640"
-       height="480"
-       x="0"
-       y="0"
-       maximized="1"
+       width="1572"
+       height="1070"
+       x="26"
+       y="23"
+       maximized="0"
        fullscreen="0"
        id="geometry" />
     <group
@@ -1042,4 +1060,7 @@
      menuIcons_canvas="0"
      menuIcons_layers="0"
      menuIcons_objects="0" />
+  <group
+     id="live_effects"
+     flattening="0" />
 </inkscape>
