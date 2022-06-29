@@ -3,7 +3,8 @@
    version="1"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
   <group
-     id="window">
+     id="window"
+     interface_mode="0">
     <group
        id="task"
        taskset="1" />
@@ -125,8 +126,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="326.658"
-         height="136.196"
+         width="175.470215344524"
+         height="100.905884004891"
          ry="0" />
       <eventcontext
          id="3dbox"
@@ -163,13 +164,15 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="126.4"
-         ry="126.4" />
+         rx="107.704770263657"
+         ry="59.3194025841107" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="3"
          style="fill:yellow;"
-         usecurrent="1" />
+         usecurrent="1"
+         proportion="0.359427386606393"
+         isflatsided="0" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -314,7 +317,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -323,9 +326,13 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
+       style="line-height:1.25;font-family:sans-serif;font-size:18.66666667px"
        selcue="1"
-       align_mode="1" />
+       align_mode="1">
+      <group
+         id="lineheight"
+         display_unit="4" />
+    </eventcontext>
     <eventcontext
        id="nodes"
        selcue="1"
@@ -341,10 +348,10 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="-1520"
-       y="1480"
+       x="36.8559446929134"
+       y="608.377826304153"
        edit_clipping_paths="0"
-       edit_masks="0" />
+       edit_masks="1" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -402,6 +409,13 @@
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1" />
+    <eventcontext
+       id="marker"
+       selcue="1"
+       gradientdrag="1" />
+    <group
+       id="geometric"
+       mode="drag" />
   </group>
   <group
      id="palette">
@@ -522,7 +536,8 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="0"
+     switcher="1" />
   <group
      id="embedded">
     <group
@@ -531,7 +546,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="Material Design"
+       palette="Inkscape default"
        panel_border="0" />
   </group>
   <group
@@ -568,7 +583,8 @@
        state="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="2" />
     <group
        id="gradienteditor" />
     <group
@@ -577,20 +593,27 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="200" />
+      <group
+         id="batchexportarea"
+         value="layer" />
+      <group
+         id="defaultdpi"
+         value="150" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="/home/izacarias/Downloads"
+       path="/home/izacarias/Documents/Figures/Discussion-w-Fran"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -601,7 +624,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/izacarias/Downloads/" />
+       path="/home/izacarias/Documents/Figures/Discussion-w-Fran" />
     <group
        id="import"
        enable_preview="1"
@@ -615,9 +638,11 @@
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       SpacingType="20" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -649,6 +674,15 @@
        id="colorpickerwindow" />
     <group
        id="undo-history" />
+    <group
+       id="livepatheffect"
+       dialogmode="0" />
+    <group
+       id="objects"
+       layers_only="0" />
+    <group
+       id="layerProp"
+       addLayerPosition="0" />
   </group>
   <group
      id="printing">
@@ -660,6 +694,7 @@
   </group>
   <group
      id="options"
+     rotationlock="1"
      onimport="0">
     <group
        id="renderingcache"
@@ -839,7 +874,8 @@
     <group
        id="maskobject"
        topmost="1"
-       remove="1" />
+       remove="1"
+       grouping="0" />
     <group
        id="blurquality"
        value="0" />
@@ -927,30 +963,77 @@
        colorsontop="0"
        partialdynamic="0" />
     <group
-       id="boot">
+       id="boot"
+       theme="colorful">
       <group
          id="shown"
-         ver1.1.2="1" />
+         ver1.1.2="1"
+         ver1.2="1" />
     </group>
     <group
        id="rendering" />
     <group
        id="font"
        unitType="2" />
+    <group
+       id="snapping"
+       snap-global-toggle="1"
+       snap-bbox="1"
+       snap-bbox-edge="1"
+       snap-bbox-corner="1"
+       snap-bbox-edge-midpoint="1"
+       snap-bbox-center="1"
+       simple-snap-bbox="1"
+       snap-others="0"
+       snap-object-midpoint="0"
+       snap-rotation-center="0"
+       snap-text-baseline="1"
+       snap-path-mask="1"
+       snap-path-clip="1"
+       snap-page-border="1"
+       snap-grid="1"
+       snap-guide="1"
+       snap-alignment="0"
+       snap-node-category="0"
+       snap-path="1"
+       snap-path-intersection="0"
+       snap-node-cusp="1"
+       snap-node-smooth="1"
+       snap-line-midpoint="1"
+       snap-line-tangential="0"
+       snap-line-perpendicular="0"
+       simple-snap-nodes="1"
+       snap-alignment-self="0"
+       snap-distribution="0"
+       simple-snap-alignment="0" />
   </group>
   <group
      id="extensions"
+     org.inkscape.output.png.inkscape.png_bitdepth="99"
+     org.inkscape.output.png.inkscape.png_compression="6"
+     org.inkscape.output.png.inkscape.png_antialias="2"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
-     org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths"
+     org.inkscape.template.page.size="297mmx420mm"
+     org.inkscape.template.page.orientation="vertical"
+     org.inkscape.template.page.background="normal"
+     org.inkscape.template.business_card.size="74mmx52mm"
+     org.inkscape.template.desktop.size="Custom"
+     org.inkscape.template.dvd_cover.spine="14"
+     org.inkscape.template.envelope.size="220mmx110mm"
+     org.inkscape.template.generic_canvas.unit="px"
+     org.inkscape.template.generic_canvas.background="normal"
+     org.inkscape.template.video.size="Custom"
+     org.inkscape.template.icon.size="128" />
   <group
      id="desktop"
-     style="fill:#0080b4;text-anchor:middle;text-align:center;stroke-width:5;font-size:64px;stroke-dasharray:10, 5, 2.5, 5">
+     style="fill:none;text-anchor:middle;text-align:center;font-size:18.66666667px;-inkscape-font-specification:Arial;font-family:Arial;stroke:#000000;opacity:0.5;stroke-width:3">
     <group
-       width="1572"
-       height="1070"
-       x="26"
-       y="23"
-       maximized="0"
+       width="1920"
+       height="1131"
+       x="0"
+       y="0"
+       maximized="1"
        fullscreen="0"
        id="geometry" />
     <group
@@ -972,11 +1055,20 @@
      id="toolbox"
      icononly="1"
      secondary="1"
+     simplesnap="0"
      small="1">
     <group
        id="tools"
        icononly="1"
-       small="0" />
+       small="0"
+       iconsize="16"
+       width="32">
+      <group
+         id="buttons" />
+    </group>
+    <group
+       id="controlbars"
+       iconsize="16" />
   </group>
   <group
      id="iconpreview"
@@ -1052,15 +1144,41 @@
   <group
      id="theme"
      defaultPreferDarkTheme="0"
-     defaultGtkTheme="Adwaita"
      defaultIconTheme="Adwaita"
-     symbolicIcons="0"
+     defaultGtkTheme="Adwaita"
+     narrowSpinButton="1"
      preferDarkTheme="0"
      darkTheme="0"
+     symbolicIcons="1"
+     symbolicDefaultBaseColors="0"
+     symbolicDefaultHighColors="0"
      menuIcons_canvas="0"
      menuIcons_layers="0"
-     menuIcons_objects="0" />
+     menuIcons_objects="0"
+     gtkTheme="Adwaita"
+     iconTheme="multicolor">
+    <group
+       id="multicolor"
+       symbolicBaseColor="255"
+       symbolicSuccessColor="10029823"
+       symbolicWarningColor="4279865599"
+       symbolicErrorColor="10086143" />
+  </group>
   <group
      id="live_effects"
-     flattening="0" />
+     flattening="0">
+    <group
+       id="perspective-envelope" />
+  </group>
+  <group
+     id="statusbar">
+    <group
+       id="visibility" />
+  </group>
+  <group
+     id="gradient-edit"
+     stoplist="1" />
+  <group
+     id="color_scales"
+     wheel_vis_hsl="0" />
 </inkscape>
