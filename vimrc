@@ -35,8 +35,6 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.flv,*.img,*.xlsx
 
-
-
 " Turning vim into a WordProcessor
 " Enable spellchecking
 func! WordProcessorMode()
@@ -51,3 +49,10 @@ let mapleader = "\\"
 nnoremap <leader>\ `` 
 call togglebg#map("<F5>")
 com! WP call WordProcessorMode()
+
+" Specific configuration form YAML files
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+" Specific configurations for vim-latex
+let g:tex_flavor='latex'
+set iskeyword+=:
