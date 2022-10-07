@@ -9,8 +9,8 @@
    content="&lt;mxfile host=&quot;Electron&quot; modified=&quot;2022-06-10T08:28:59.891Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/18.0.6 Chrome/100.0.4896.143 Electron/18.2.3 Safari/537.36&quot; etag=&quot;ovH3Y_eklozirlzSnv-S&quot; version=&quot;18.0.6&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;Xv4iepcqq6whoJK2d6sw&quot; name=&quot;Page-1&quot;&gt;7Zpfb9owEMA/DY+N8peYxxXKuqmdNvWh214qk5jg1clFjoF0n342cUJCYE23ZOs0ggTxnXHOdz/bZ8PImcb5W47T1S2EhI1sM8xHzmxk25aFPPmhJE+FBNmoEESchrrSXnBHvxMtNLV0TUOSNSoKACZo2hQGkCQkEA0Z5hy2zWpLYM2npjgiLcFdgFlbek9DsSr7NZ7sFdeERitR9s8vFDEuK+ueZCscwrYmcq5GzpQDiOIuzqeEKeeVfim+Nz+hrQzjJBFdvuDee7PtBX8/E1fvb/Mvn9GHdzcXdtHKBrO17rA2VjyVHpB2p+o2ziMVYiOgWQAGh7UgPNOfI+dyJWIma1nyNgWaSOHVRlqWaVmIsxVRlpiysKSMTYEB3z3BMZ0xmvhSngkOj6SmWe6uSlNGQPruckO4oDJON3hB2EfIqKCQSN0ChIC4VuENo5FSCEilFOtSQJLCbmk/o4l8aMmPMrDtW+1u1SjJayLt67cEYiL4k6xSasu4a/A93cK2RtFYV1nVALJMZPglwBreqGp9H195o0P8gnBbz4d7CYmox8Ycj6fTk+58NgrsQFH5vRWIGkBHY9IZmkojeQ0p2XcngYTUxDPKZeuFWQlwFZUjnB3inxCxBf4oyZetwIOA7c76AGIaaEsFJ2QuJxqaRDXJLWz2giXNZ3JE6BLO0qKfUqwGSS/8Nehrw4d8w/WO4OdNfp+91dLKH7ahm9/zr9ffPvG5GcUXzv/A3nx3Dc5eDAuqnNbA7gQhRzg6CY3jmc9g40+MP0qN+zw1LwmeDsPfmjMCBms1vg9Ar5a5nsPpol9bgxAy0FABtTqkHJHMKtKT/depHl6U1c2X+mV84BfX7OaXiWM49mR/oYF85J2nyt6GXEb4prVCLxlNr3UvOo2zn6Dcpqy+yp4YXcjzLdcu3v2hRpp5xmhYjPpHJ29i80pImpxB+kdBciaGVbtMNG4ufIbrlvCod/tVYWedtwz9cReS7FE64SEN+s8zm3tN2+w2e1UpVv/gdNg1/CvgTHfXMXDGCFmXzuDgMJwWPugZGnSQhNsdk3A0VNZttdPuG/XYxZotWvhkj0QE5fnN8Tg2AZOvuTLmVLROb0kPgKg2i40j1b6OQ2t0qg7oA3nLLsvaA0dPrQ4RwtvMNTjJYM0D8i5Q9lzKYnHXrMUqR/fOmW8fctYRtAHnJ79F2p1MC+BM2bCUZTsn906YJ/Mo79UxhlqMzXEgQDd9pmwwypbazf2fzr7Cmay9NZxifiZsWMIC/EsbyJf9YDkoXbK4/+V7p6v9f8C5+gE=&lt;/diagram&gt;&lt;/mxfile&gt;"
    style="background-color: rgb(255, 255, 255);"
    id="svg358"
-   sodipodi:docname="Networking"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="Networking.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="0.80714486"
-     inkscape:cx="574.24636"
-     inkscape:cy="406.37067"
+     inkscape:zoom="1.6142897"
+     inkscape:cx="972.87369"
+     inkscape:cy="354.3354"
      inkscape:window-width="1920"
      inkscape:window-height="1131"
      inkscape:window-x="0"
@@ -664,6 +664,55 @@
       <title
          id="title12864">IoT Arm</title>
     </symbol>
+    <symbol
+       id="IoT_Temperature">
+      <g
+         id="IoT_Temperature_transform"
+         transform="matrix(3.7795276,0,0,3.7795276,984.5,379.5)">
+        <title
+           id="title3367">Temperature</title>
+        <path
+           d="M 33.866655,9.5752713 V 8.0353963 H 30.572593 V 5.720292 c 0,-1.330854 -1.084792,-2.415646 -2.415646,-2.415646 H 25.83126 V 0 H 24.291395 V 3.304646 H 21.76727 V 0 H 20.227395 V 3.304646 H 17.70327 V 0 H 16.163395 V 3.304646 H 13.63927 V 0 H 12.099395 V 3.304646 H 9.5752697 V 0 H 8.035396 V 3.304646 H 5.709708 c -1.330854,0 -2.415646,1.084792 -2.415646,2.415646 V 8.0353963 H 0 v 1.539875 H 3.294062 V 12.099396 H 0 v 1.539875 h 3.294062 v 2.524125 H 0 v 1.539875 h 3.294062 v 2.524125 H 0 v 1.539875 h 3.294062 v 2.524125 H 0 v 1.539875 h 3.294062 v 2.325687 c 0,1.3335 1.084792,2.415646 2.415646,2.415646 h 2.325688 v 3.294062 h 1.5398737 v -3.294062 h 2.5241253 v 3.294062 h 1.539875 v -3.294062 h 2.524125 v 3.294062 h 1.539875 v -3.294062 h 2.524125 v 3.294062 h 1.539875 v -3.294062 h 2.524125 v 3.294062 h 1.539865 v -3.294062 h 2.325687 c 1.330854,0 2.415646,-1.082146 2.415646,-2.415646 v -2.325687 h 3.294062 v -1.539875 h -3.294062 v -2.524125 h 3.294062 v -1.539875 h -3.294062 v -2.524125 h 3.294062 v -1.539875 h -3.294062 v -2.524125 h 3.294062 V 12.099396 H 30.572593 V 9.5752713 Z M 29.030072,28.156958 c 0,0.484188 -0.391583,0.875771 -0.873125,0.875771 H 5.709708 c -0.481542,0 -0.875771,-0.391583 -0.875771,-0.875771 V 5.720292 c 0,-0.481542 0.394229,-0.873125 0.875771,-0.873125 h 22.447239 c 0.481542,0 0.873125,0.391583 0.873125,0.873125 z"
+           fill="#036897"
+           stroke="none"
+           pointer-events="none"
+           id="path1265"
+           sodipodi:nodetypes="cccssccccccccccccccccccccssccccccccccccccccccccssccccccccccccccccccccssccccccccccccccccccsssssssss"
+           style="stroke-width:0.264583" />
+        <g
+           id="g3062"
+           transform="matrix(0.92797757,0,0,0.92797757,0.09532981,1.5887734)"
+           style="stroke-width:1.71071;stroke-dasharray:none">
+          <path
+             id="path1332"
+             style="fill:none;fill-opacity:1;stroke:#036897;stroke-width:1.71071;stroke-dasharray:none;stroke-opacity:1"
+             d="M 15.22181,7.0197266 V 20.971847 c -1.15525,0.559013 -1.889165,1.729343 -1.88929,3.012736 -1.77e-4,1.848699 1.498383,3.347491 3.347082,3.347599 1.848901,1.77e-4 3.347776,-1.498698 3.347599,-3.347599 -1.25e-4,-1.283393 -0.73404,-2.453723 -1.88929,-3.012736 V 7.0197266 c 0,-1.6913683 -2.805373,-1.7243803 -2.916101,0 z"
+             sodipodi:nodetypes="ccscsccc" />
+          <path
+             style="fill:none;stroke:#036897;stroke-width:1.71071;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 19.719762,8.2020834 h 4.030744"
+             id="path2977" />
+          <path
+             style="fill:none;stroke:#036897;stroke-width:1.71071;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 19.719762,10.847917 h 2.707827"
+             id="path2979" />
+          <path
+             style="fill:none;stroke:#036897;stroke-width:1.71071;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 19.719762,13.493751 h 4.030744"
+             id="path2981" />
+          <path
+             style="fill:none;stroke:#036897;stroke-width:1.71071;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 19.719762,16.139584 h 2.707827"
+             id="path2983" />
+          <path
+             style="fill:none;stroke:#036897;stroke-width:1.71071;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.781756,18.520834 H 23.8125"
+             id="path2985" />
+        </g>
+      </g>
+      <title
+         id="title3553">Temperature</title>
+    </symbol>
   </defs>
   <rect
      x="1"
@@ -695,98 +744,98 @@
   </switch>
   <g
      id="g4701"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4703"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4705"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4707"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4709"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4711"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4713"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4715"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4717"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4719"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4721"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4723"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4725"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4727"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <g
      id="g4729"
-     transform="translate(709.5,229.5)">
-</g>
+     transform="translate(709.5,229.5)" />
   <use
      xlink:href="#RadioUnit"
      id="use11566" />
   <use
      xlink:href="#router"
-     id="use11591" />
+     id="use11591"
+     transform="translate(33.327617)" />
   <use
      xlink:href="#smartphone"
-     id="use11627" />
+     id="use11627"
+     transform="translate(28.140235)" />
   <use
      xlink:href="#symbol11666"
-     id="use11672" />
+     id="use11672"
+     transform="translate(42.714177)" />
   <use
      xlink:href="#datacenter"
-     id="use11759" />
+     id="use11759"
+     transform="translate(66.342382)" />
   <use
      xlink:href="#laptop"
-     id="use11890" />
+     id="use11890"
+     transform="translate(91.024835,19.975)" />
   <use
      xlink:href="#towerpc"
-     id="use12033" />
+     id="use12033"
+     transform="translate(1.725)" />
   <use
      xlink:href="#iotcar"
-     id="use12186" />
+     id="use12186"
+     transform="translate(33.327617)" />
   <use
      xlink:href="#iotindustry"
-     id="use12346" />
+     id="use12346"
+     transform="translate(17.890235)" />
   <use
      xlink:href="#iotgears"
-     id="use12513" />
+     id="use12513"
+     transform="translate(-2.1811912)" />
   <use
      xlink:href="#iotlamp"
-     id="use12687" />
+     id="use12687"
+     transform="translate(26.342382)" />
   <use
      xlink:href="#iotarm"
-     id="use12869" />
+     id="use12869"
+     transform="translate(80.594513,1.71563)" />
+  <use
+     xlink:href="#IoT_Temperature"
+     id="use4141"
+     transform="translate(5)" />
 </svg>
