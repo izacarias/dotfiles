@@ -50,9 +50,16 @@ nnoremap <leader>\ ``
 call togglebg#map("<F5>")
 com! WP call WordProcessorMode()
 
+" Configurations for markdown files
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
 " Specific configuration form YAML files
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " Specific configurations for vim-latex
 let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_FormatDependency_pdf = 'dvi,ps,pdf'
 set iskeyword+=:
+
