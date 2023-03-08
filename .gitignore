@@ -1,7 +1,9 @@
 # Inkscape files to ignore
 inkscape/cphistory.xml
 inkscape/dialogs-state.ini
+inkscape/dialogs-state-ex.ini
 inkscape/extension-errors.log
+inkscape/preferences.xml
 
 # Vim files to ignore
 vim/.netrwhist
