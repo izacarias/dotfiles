@@ -10,7 +10,7 @@
    style="background-color: rgb(255, 255, 255);"
    id="svg358"
    sodipodi:docname="Networking.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,13 +26,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="1.6142897"
-     inkscape:cx="972.87369"
-     inkscape:cy="354.3354"
+     inkscape:zoom="2.2829504"
+     inkscape:cx="752.53497"
+     inkscape:cy="482.92771"
      inkscape:window-width="1920"
-     inkscape:window-height="1131"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="120"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg358">
     <inkscape:grid
@@ -713,6 +713,81 @@
       <title
          id="title3553">Temperature</title>
     </symbol>
+    <symbol
+       id="g4380">
+      <path
+         style="fill:none;stroke:#036897;stroke-width:4.65101px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 530.99896,370.73001 V 497.10707 H 659.3763"
+         id="path32894" />
+      <path
+         style="fill:#036897;fill-opacity:1;stroke:#036897;stroke-width:4.9486px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 539.52306,494.41773 v -68.12261 h 8.62744 v 68.12261 z"
+         id="path32896" />
+      <path
+         style="fill:#036897;fill-opacity:1;stroke:#036897;stroke-width:5.62311px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 560.91998,494.05128 V 406.0758 h 8.62582 v 87.97548 z"
+         id="path32898" />
+      <path
+         style="fill:#036897;fill-opacity:1;stroke:#036897;stroke-width:4.67994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 603.49678,494.48307 v -58.03702 h 9.05701 v 58.03702 z"
+         id="path32902" />
+      <path
+         style="fill:#036897;fill-opacity:1;stroke:#036897;stroke-width:4.9486px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 582.31545,494.41773 v -68.12261 h 8.62744 v 68.12261 z"
+         id="path32904" />
+      <path
+         style="fill:#036897;fill-opacity:1;stroke:#036897;stroke-width:5.27514px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 625.25793,494.24043 v -80.20304 h 8.32726 v 80.20304 z"
+         id="path32906" />
+      <path
+         style="fill:#036897;fill-opacity:1;stroke:#036897;stroke-width:5.78091px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 646.53856,493.04154 V 396.0053 h 8.2658 v 97.03624 z"
+         id="path32908" />
+      <path
+         style="fill:none;stroke:#036897;stroke-width:4.65101px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 539.55735,401.06052 25.67546,-20.22047 42.79255,35.38572 47.07158,-45.49576"
+         id="path32910" />
+    </symbol>
+    <symbol
+       id="g33278"
+       style="stroke-width:0.860635;stroke-dasharray:none;stroke:#036897;stroke-opacity:1">
+      <g
+         id="g33278_transform"
+         transform="matrix(11.857202,0,0,11.857202,-1855.7631,-739.21243)">
+        <path
+           id="path33262"
+           style="fill:#ffffff;stroke:#036897;stroke-width:0.860635;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stroke-opacity:1"
+           d="m 222.25,93.927086 h 7.9375 V 104.51042 H 222.25 Z" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,95.249999 h 5.29167"
+           id="path33264" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,96.572915 h 5.29167"
+           id="path33266" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,97.895832 h 5.29167"
+           id="path33268" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,99.218749 h 5.29167"
+           id="path33270" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,100.54167 h 5.29167"
+           id="path33272" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,101.86458 h 5.29167"
+           id="path33274" />
+        <path
+           style="fill:none;stroke:#036897;stroke-width:0.63750749;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 223.57291,103.1875 h 5.29167"
+           id="path33276" />
+      </g>
+    </symbol>
   </defs>
   <rect
      x="1"
@@ -838,4 +913,52 @@
      xlink:href="#IoT_Temperature"
      id="use4141"
      transform="translate(5)" />
+  <g
+     id="g31921"
+     transform="matrix(5.6692891,0,0,5.6692891,-707.99953,197.00017)">
+    <g
+       id="g31908"
+       transform="translate(10.583337,2.6458343)">
+      <path
+         id="rect31892"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         d="m 222.25,93.927086 5.29166,-4e-6 2.64584,2.645834 v 7.937504 H 222.25 Z"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,95.249999 h 3.96875"
+         id="path31894"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,96.572915 h 5.29167"
+         id="path31896" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,97.895832 h 5.29167"
+         id="path31898" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,99.218749 h 5.29167"
+         id="path31900" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,100.54167 h 5.29167"
+         id="path31902" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,101.86458 h 5.29167"
+         id="path31904" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 223.57291,103.1875 h 5.29167"
+         id="path31906" />
+    </g>
+  </g>
+  <use
+     xlink:href="#g4380"
+     id="use4597" />
+  <use
+     xlink:href="#g33278"
+     id="use4832" />
 </svg>
