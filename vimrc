@@ -35,6 +35,40 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.flv,*.img,*.xlsx
 
+
+" # Mappings and shortcuts
+" ## Setting the leader key
+let mapleader = ","
+nnoremap <leader>, ``
+
+" # Leader key shortcuts
+nnoremap <leader>u :UndotreeToggle<CR>
+
+" # Fn keys
+" ## Change background color
+" ## by pressing F5
+call togglebg#map("<F5>")
+
+" # Vim commands
+" ## Enable Word Processing mode (Spell check)
+" ## by pressing ":WP" 
+com! WP call WordProcessorMode()
+
+" ## Specific configurations for markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
+" ## Specific configuration form YAML files
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+" ## Specific configurations for vim-latex
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_FormatDependency_pdf = 'dvi,ps,pdf'
+set iskeyword+=:
+
+" # Definition of Functions
+
 " Turning vim into a WordProcessor
 " Enable spellchecking
 func! WordProcessorMode()
@@ -43,23 +77,3 @@ func! WordProcessorMode()
  setlocal spell spelllang=en_us
  setlocal noexpandtab
 endfu
-
-" Mappings and shortcuts
-let mapleader = "\\"
-nnoremap <leader>\ `` 
-call togglebg#map("<F5>")
-com! WP call WordProcessorMode()
-
-" Configurations for markdown files
-au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-
-" Specific configuration form YAML files
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-
-" Specific configurations for vim-latex
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_FormatDependency_pdf = 'dvi,ps,pdf'
-set iskeyword+=:
-
