@@ -7,15 +7,27 @@
 "
 " The plugins are also based on Stefe Francia collection of VIM plugins 
 "
-" Big thanks for making spf13-vim available :)
+" Big thanks to Steve Francia for making spf13-vim available :)
 "
-
 " Basics {
     set nocompatible            " Must be first line
+    set background=dark         " Assume a dark background
+" }
+
+
+" Setup Bundle support {
+    "if isdirectory(expand("~/.vim/bundle/vundle/"))
+    "    filetype off
+    "    set rtp+=~/.vim/bundle/vundle
+    "    call vundle#rc()
+
+    "    " Bundles {
+    "    Bundle 'altercation/vim-colors-solarized'
+    "    " }
+    "endif
 " }
 
 " General {
-    set background=dark         " Assume a dark background
     
     " Allow to trigger background
     function! ToggleBG()
