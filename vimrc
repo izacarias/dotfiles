@@ -1,79 +1,118 @@
-" Disable compatibility with vi
-set nocompatible
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
+" This is my personal .vimrc file. It is based in Steve Francia .vimrc file
+" that can be found in http://spf13.com or https://github.com/spf13
+"
+" This file isn't a copy of the entire file. Instead, I've just picked up the
+" parts that I am interested. 
+"
+" The plugins are also based on Stefe Francia collection of VIM plugins 
+"
+" Big thanks for making spf13-vim available :)
+"
 
-" Setting the colorscheme
-colorscheme solarized8_low
+" Basics {
+    set nocompatible            " Must be first line
+" }
 
-" Set background color to dar for terminal and light for GUI
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
+" General {
+    set background=dark         " Assume a dark background
+    
+    " Allow to trigger background
+    function! ToggleBG()
+        let s:tbg = &background
+        " Inversion
+        if s:tbg == "dark"
+            set background=light
+        else
+            set background=dark
+        endif
+    endfunction
 
-" Controlling the tab behaviour
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+    filetype plugin indent on   " Automatically detect file types.
+    syntax on                   " Syntax highlighting
+    set mouse=a                 " Automatically enable mouse usage
+    set mousehide               " Hide the mouse cursor while typing
+    scriptencoding utf-8
+    
+    if has('clipboard')
+        if has('unnamedplus')  " When possible use + register for copy-paste
+            set clipboard=unnamed,unnamedplus
+        else         " On mac and Windows, use * register for copy-paste
+            set clipboard=unnamed
+        endif
+    endif
 
-" Enable filetype detection
-filetype on
-" Enable plugins and enable plugins for the detected filetype
-filetype plugin on
-" Load and indent files for the detected filetype
-filetype indent on
-" Turn on syntax highlighting
-syntax on
+    set virtualedit=onemore             " Allow for cursor beyond last character
+    set history=1000                    " Store a ton of history (default is 20)
+    set spell                           " Spell checking on
+    set hidden                          " Allow buffer switching without saving
+    set iskeyword-=.                    " '.' is an end of word designator
+    set iskeyword-=#                    " '#' is an end of word designator
+    set iskeyword-=-                    " '-' is an end of word designator
+    
+    set nobackup                        " Disable local backup files
+    set showmode
+" }
 
-set autoindent
-" set textwidth=80
-" Disable local backup files
-set nobackup
-set showmode
-set wildmenu
-set wildmode=list:longest
-set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.flv,*.img,*.xlsx
+" Formatting {
 
+    set nowrap                      " Do not wrap long lines
+    set autoindent                  " Indent at the same level of the previous line
+    set shiftwidth=4                " Use indents of 4 spaces
+    set expandtab                   " Tabs are spaces, not tabs
+    set tabstop=4                   " An indentation every four columns
+    set softtabstop=4               " Let backspace delete indent
+    set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
+    set splitright                  " Puts new vsplit windows to the right of the current
+    set splitbelow                  " Puts new split windows to the bottom of the current
+    "set matchpairs+=<:>             " Match, to be used with %
+    set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
+" }
 
-" # Mappings and shortcuts
-" ## Setting the leader key
-let mapleader = ","
-nnoremap <leader>, ``
+" Vim UI {
+    
+    colorscheme solarized8_low      " Setting my prefered colorscheme
+    
+    if has('statusline')
+        set laststatus=2
 
-" # Leader key shortcuts
-nnoremap <leader>u :UndotreeToggle<CR>
+        " Broken down into easily includeable segments
+        set statusline=%<%f\                     " Filename
+        set statusline+=%w%h%m%r                 " Options
+        "if !exists('g:override_spf13_bundles')
+        "    set statusline+=%{fugitive#statusline()} " Git Hotness
+        "endif
+        set statusline+=\ [%{&ff}/%Y]            " Filetype
+        set statusline+=\ [%{getcwd()}]          " Current dir
+        set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
+    endif 
+" }
 
-" # Fn keys
-" ## Change background color
-" ## by pressing F5
-call togglebg#map("<F5>")
+" Key (re)Mappings {
+    let mapleader = ','
+    
+    noremap <leader>bg :call ToggleBG()<CR>
+    
+    " Easier moving in tabs and windows
+    " The lines conflict with the default digraph mapping of <C-K>
+    " If you prefer that functionality, add the following to your
+    " .vimrc.before.local file:
+    "   let g:spf13_no_easyWindows = 1
+    if !exists('g:spf13_no_easyWindows')
+        map <C-J> <C-W>j<C-W>_
+        map <C-K> <C-W>k<C-W>_
+        map <C-L> <C-W>l<C-W>_
+        map <C-H> <C-W>h<C-W>_
+    endif
 
-" # Vim commands
-" ## Enable Word Processing mode (Spell check)
-" ## by pressing ":WP" 
-com! WP call WordProcessorMode()
+" }
 
-" ## Specific configurations for markdown
-au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-
-" ## Specific configuration form YAML files
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-
-" ## Specific configurations for vim-latex
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_FormatDependency_pdf = 'dvi,ps,pdf'
-set iskeyword+=:
-
-" # Definition of Functions
-
-" Turning vim into a WordProcessor
-" Enable spellchecking
-func! WordProcessorMode()
- setlocal textwidth=80
- setlocal smartindent
- setlocal spell spelllang=en_us
- setlocal noexpandtab
-endfu
+" Plugins {
+    " UndoTree {
+        if isdirectory(expand("~/.vim/pack/plugins/start/undotree/"))
+            nnoremap <Leader>u :UndotreeToggle<CR>
+            " If undotree is opened, it is likely one wants to interact with it.
+            let g:undotree_SetFocusWhenToggle=1
+        endif
+    " } 
+" }
