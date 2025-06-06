@@ -1,3 +1,13 @@
 [user]
 	name = izacarias
 	email = iuli.zacarias@gmail.com
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+[pull]
+	rebase = true
+[alias]
+	conflicts = diff --name-only --diff-filter=U --relative
+	st = status
+	cm = commit
