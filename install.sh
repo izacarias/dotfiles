@@ -5,11 +5,12 @@ CWD=$(pwd)
 
 # Files to install
 dotfiles=(
-    "$CWD/vimrc,$HOME/.vimrc" 
-    "$CWD/vim,$HOME/.vim"
-    "$CWD/inkscape,$HOME/.config/inkscape"
-    "$CWD/bashrc,$HOME/.bashrc"
-    "$CWD/bashrc.d,$HOME/.bashrc.d"
+    "vimrc,.vimrc" 
+    "vim,.vim"
+    "inkscape,.config/inkscape"
+    "starship.toml,.config/starship.toml"
+    "bashrc,.bashrc"
+    "bashrc.d,.bashrc.d"
 );
 
 create_links_fake () {
@@ -19,6 +20,9 @@ create_links_fake () {
         IFS=',';
         set -- $curr;
         echo "Creating symlink $1 -> $2";
+        # add current working directory to the path
+        $1 = $CWD/$1
+        $2 = $HOME/$2
         ln -sfv $1 $2; 
         IFS=$OLDIFS;
     done;
